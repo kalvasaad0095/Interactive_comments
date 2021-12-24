@@ -1,0 +1,32 @@
+@import "../../global.styles.scss";
+
+.Fwc {
+    box-shadow: $element-box-shadow-light;
+    .Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        height: 80px;
+        max-width: 1280px;
+        & > p {
+            font-weight: $bold;
+            font-size: .9rem;
+            @include large-and-up {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+.light {
+    background-color: $white;
+    color: $very-dark-blue-text;
+}
+
+.dark {
+    background-color: $dark-blue;
+    box-shadow: $element-box-shadow-light;
+    color: $white;
+}
