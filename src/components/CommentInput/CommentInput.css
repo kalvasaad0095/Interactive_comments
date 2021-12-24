@@ -1,0 +1,40 @@
+.input {
+    background: white;
+    width: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.input__image {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.input__field {
+    flex: auto;
+    border: none;
+    border-radius: 0.5rem;
+    min-height: 5rem;
+    border: 1px solid var(--light-gray);
+    padding: 0.6rem;
+    resize: none;
+}
+
+.input__button {
+    background: var(--moderate-blue);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+}
+
+@media screen and (max-width: 35rem) {
+ 
+    .input {
+        padding: 1rem;
+    }
+}
