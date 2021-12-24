@@ -1,8 +1,9 @@
 {
   "name": "interactive-comments",
-  "homepage": "agitated-kepler-fe0ceb.netlify.app",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
+  "start_url": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
